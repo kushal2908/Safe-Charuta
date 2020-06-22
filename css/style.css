@@ -1999,13 +1999,13 @@ FILTER
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 100%;
 }
 
 .portfolio-item figure {
   background: rgb(255, 255, 255);
   overflow: hidden;
-  height: 170px;
+  height: auto;
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
