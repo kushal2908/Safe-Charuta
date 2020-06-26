@@ -1991,7 +1991,7 @@ FILTER
 }
 
 .portfolio-item {
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
   padding-bottom: 30px;
 }
@@ -2025,11 +2025,21 @@ FILTER
 }
 
 .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1px;
   font-weight: 700;
   margin-bottom: 18px;
   padding-bottom: 0;
+}
+
+@media (max-width: 768px){
+  .portfolio-item .portfolio-info h4 {
+    font-size: 12px;
+    line-height: 1px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    padding-bottom: 0;
+  }
 }
 
 
