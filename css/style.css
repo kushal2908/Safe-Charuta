@@ -1991,7 +1991,7 @@ FILTER
 }
 
 .portfolio-item {
-  /* position: relative; */
+  position: relative;
   overflow: hidden;
   padding-bottom: 30px;
 }

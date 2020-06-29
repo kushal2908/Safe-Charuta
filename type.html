@@ -84,7 +84,8 @@
 									<li><a href="chubbsafes.html">ChubbSafe</a></li>
 								</ul>
 							</li>
-					   <!-- <li><a href="portfolio.html">Products</a></li> -->
+             <!-- <li><a href="portfolio.html">Products</a></li> -->
+             <li><a href="client.html">Our Client</a></li>
 							<li><a href="contact.html">Contact</a></li>
 							<li style="margin:10px;">|</li>
 							<a href="https://www.facebook.com/safecharuta">
@@ -123,7 +124,7 @@
             <div class="col-lg-12">
               <ul id="portfolio-flters">
                 <!-- <li data-filter="*" class="filter-active">All</li> -->
-                <li data-filter=".filter-1">Burglar Resistant Safe</li>
+                <li data-filter=".filter-1" class="filter-active" >Burglar Resistant Safe</li>
                 <li data-filter=".filter-2">Fire Resistant Safe</li>
                 <li data-filter=".filter-3">Fire &amp; Burglar Resistant Safe</li>
                 <li data-filter=".filter-4">Personal &amp; Hotel safe/Small Safe</li>
@@ -505,7 +506,7 @@
                   <ul class="gtco-list-link">
                     <li><a href="#">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="client.html">Our Client</a></li>
                     <!-- <li><a href="portfolio.html">Products</a></li> -->
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
@@ -550,6 +551,9 @@
       <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
     </div>
 
+    
+   
+
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
     <!-- jQuery Easing -->
@@ -571,8 +575,9 @@
     <!-- Porfolio isotope and filter -->
     <script>
       var portfolioIsotope = $(".portfolio-container").isotope({
-        itemSelector: ".portfolio-item",
+        itemSelector: ".portfolio-item",      
         layoutMode: "fitRows",
+    
       });
 
       $("#portfolio-flters li").on("click", function () {
@@ -581,6 +586,9 @@
 
         portfolioIsotope.isotope({ filter: $(this).data("filter") });
       });
-    </script>
+  </script>
+
+
+    
   </body>
 </html>
