@@ -102,14 +102,15 @@ figure {
 }
 
 .gtco-nav {
-  position: relative;
+  /* position: relative; */
+  position: fixed;
   top: 0;
   margin: 0;
   padding: 0;
   width: 100%;
   padding: 10px 0;
   z-index: 1001;
-  background: #000;
+  background:rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -149,7 +150,7 @@ figure {
   letter-spacing: 0.05em;
 }
 .gtco-nav ul li a {
-  font-size: 16px;
+  
   padding: 30px 10px;
   color: #b2d234;
   -webkit-transition: 0.5s;
@@ -1203,7 +1204,8 @@ form label {
 }
 
 .gtco-nav-toggle {
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   right: 0px;
   top: 8px;
   z-index: 21;
