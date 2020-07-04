@@ -110,7 +110,7 @@ figure {
   width: 100%;
   padding: 10px 0;
   z-index: 1001;
-  background:rgba(0, 0, 0, 0.1);
+  background:rgba(0, 0, 0, 0.9);
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -839,6 +839,9 @@ form label {
 
 #gtco-header {
   background: linear-gradient(to top, #677c19 0%, #000000 100%);
+
+
+
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dcdbc', endColorstr='#33a1bd', GradientType=1 );
 }
 #gtco-header p {
